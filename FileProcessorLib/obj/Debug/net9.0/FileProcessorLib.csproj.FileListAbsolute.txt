@@ -1,0 +1,12 @@
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/bin/Debug/net9.0/FileProcessorLib.deps.json
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/bin/Debug/net9.0/FileProcessorLib.dll
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/bin/Debug/net9.0/FileProcessorLib.pdb
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.AssemblyInfoInputs.cache
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.AssemblyInfo.cs
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.csproj.CoreCompileInputs.cache
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.sourcelink.json
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.dll
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/refint/FileProcessorLib.dll
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/FileProcessorLib.pdb
+/Users/yuri.narang/Desktop/training/copilot-day5-dotnet/FileProcessorLib/obj/Debug/net9.0/ref/FileProcessorLib.dll

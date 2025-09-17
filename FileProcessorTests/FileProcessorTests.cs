@@ -1,6 +1,7 @@
 
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using FileProcessorLib;
 using Xunit;
 
@@ -17,10 +18,10 @@ namespace FileProcessorTests
         }
 
         [Fact]
-        public void GetFileLength_ReturnsCorrectLength()
+        public async Task GetFileLengthAsync_ReturnsCorrectLength()
         {
             var proc = new FileProcessor();
-            int len = proc.GetFileLength(_tempPath);
+            int len = await proc.GetFileLengthAsync(_tempPath);
             Assert.Equal(11, len);
         }
 

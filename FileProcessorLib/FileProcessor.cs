@@ -1,16 +1,24 @@
 
 using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace FileProcessorLib
 {
-    // Smelly implementation: synchronous file read which blocks thread pool for large files.
+    // Async streaming implementation to avoid blocking thread pool for large files.
     public class FileProcessor
     {
-        public int GetFileLength(string path)
+        public async Task<int> GetFileLengthAsync(string path)
         {
-            // Intentionally using blocking IO (File.ReadAllText) to illustrate a fix to async streaming.
-            var text = System.IO.File.ReadAllText(path);
-            return text.Length;
+            using var reader = new StreamReader(path);
+            int length = 0;
+            char[] buffer = new char[4096];
+            int read;
+            while ((read = await reader.ReadAsync(buffer, 0, buffer.Length)) > 0)
+            {
+                length += read;
+            }
+            return length;
         }
     }
 }
